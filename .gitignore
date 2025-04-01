@@ -1,5 +1,6 @@
 ### Custom template
 .idea
+cmake-build-debug
 
 ### C template
 # Prerequisites
