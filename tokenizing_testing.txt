@@ -167,3 +167,25 @@ Phrase #1 is ' to accepted norms.'
 Type a few phrases separated by comma(q - to quit) :
 q
 *** End of Tokenizing Phrases Demo ***
+
+// V3
+*** Start of Tokenizing Sentences Demo ***
+Type a few sentences separated by dot(q - to quit):
+a
+Senetnce #1 is 'a'
+Type a few sentences separated by dot(q - to quit):
+Amazon Web Services (AWS) is the world's most comprehensive and broadly adopted cloud that includes infrastructure as a service (IaaS) and platform as a service (PaaS) offerings. AWS services offer scalable solutions for compute, storage, databases, analytics, and more.
+Senetnce #1 is 'Amazon Web Services (AWS) is the world's most comprehensive and broadly adopted cloud that includes infrastructure as a service (IaaS) and platform as a service (PaaS) offerings'
+Senetnce #2 is ' AWS services offer scalable solutions for compute, storage, databases, analytics, and more'
+Type a few sentences separated by dot(q - to quit):
+Amazon Q Developer is a generative artificial intelligence (AI) powered coding assistant that can provide inline code completions, generate net new code, scan your code for security vulnerabilities, and make code upgrades and improvements, such as language updates, debugging, and optimizations.
+Senetnce #1 is 'Amazon Q Developer is a generative artificial intelligence (AI) powered coding assistant that can provide inline code completions, generate net new code, scan your code for security vulnerabilities, and make code upgrades and improvements, such as language updates, debugging, and optimizations'
+Type a few sentences separated by dot(q - to quit):
+Adjusting to a cloud-native approach can take time, especially if you are accustomed to the traditional on-premises way of provisioning hardware and building applications. Gaining familiarity with core concepts of cloud computing and the AWS Cloud will help give you confidence as you begin your cloud journey.
+Senetnce #1 is 'Adjusting to a cloud-native approach can take time, especially if you are accustomed to the traditional on-premises way of provisioning hardware and building applications'
+Senetnce #2 is ' Gaining familiarity with core concepts of cloud computing and the AWS Cloud will help give you confidence as you begin your cl'
+Type a few sentences separated by dot(q - to quit):
+Senetnce #1 is 'ud journey'
+Type a few sentences separated by dot(q - to quit):
+q
+*** End of Tokenizing Sentences Demo ***

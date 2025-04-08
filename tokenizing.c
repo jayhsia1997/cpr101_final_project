@@ -12,7 +12,7 @@ void tokenizing()
     tokenizingV2();
 
     /* Version 3 */
-    // tokenizingV3();
+    tokenizingV3();
 }
 
 /* Version 1 */
