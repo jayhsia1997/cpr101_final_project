@@ -3,7 +3,15 @@
 #include <limits.h>
 #include "converting.h"
 
-
+    void converting() {
+        /* Version 1 */
+        convertingV1();
+        /* Version 2 */
+        convertingV2();
+        /* Version 3 */
+        convertingV3();
+    }
+    
     /* Version 1 */
     void convertingV1() {
     printf("*** Start of Converting Strings to int Demo ***\n");
@@ -53,10 +61,14 @@
     printf("*** Start of Converting Strings to long Demo ***\n");
     char longString[BUFFER_SIZE];
     long longNumber;
+    // This loop will continue until user types 'q' to quit
     do {
         printf("Type the long numeric string (q - to quit): \n");
-        fgets(longString, BUFFER_SIZE, stdin);
+        //This function reads the given number of characters from user input
+        fgets(longString, BUFFER_SIZE, stdin); 
+        //This line sets where is an end of string
         longString[strlen(longString) - 1] = '\0';
+        //If user doesn't type q, then display the converted number. In this case, the string is converted into long integer value(atol).
         if ((strcmp(longString, "q") != 0)) {
             longNumber = atol(longString);
             printf("Converted number is %ld\n", longNumber);
